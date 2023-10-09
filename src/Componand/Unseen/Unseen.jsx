@@ -1,10 +1,11 @@
+import {unseen} from '../../assets/unseen.svg'
 
 const Unseen = () => {
   return (
     <div className="container">
         <div className="lg:flex gap-x-[49.47px] items-center">
         <div className="lg:pb-[100.01px] pb-[75px] flex justify-center">
-            <img src="src/assets/unseen.svg" alt="" />
+            <img src={unseen} alt="" />
         </div>
         <div className="lg:pb-[130.5px] pb-[80px] ml-[15px] lg:ml-0">
             <h3 className="md:text-[36px] text-[30px] font-Inter font-semibold md:leading-[44px] text-[#4D4D4D] md:max-w-[601px] max-w-[460px]">The unseen of spending three years at Pixelgrade</h3>

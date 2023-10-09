@@ -1,4 +1,10 @@
-
+import {ourClient1} from '../../assets/ourClient1.svg'
+import {ourClient2} from '../../assets/ourClient2.svg'
+import {ourClient3} from '../../assets/ourClient3.svg'
+import {ourClient4} from '../../assets/ourClient4.svg'
+import {ourClient5} from '../../assets/ourClient5.svg'
+import {ourClient6} from '../../assets/ourClient6.svg'
+import {ourClient7} from '../../assets/ourClient7.svg'
 
 const Client = () => {
   return (
@@ -8,13 +14,13 @@ const Client = () => {
             <p className="text-base font-Inter font-normal text-[#717171]">We have been working with some Fortune 500+ clients</p>
         </div>
         <div className="flex flex-wrap items-center gap-[135px] justify-center mt-[50.85px] mb-[74.15px]">
-            <img src="src/assets/ourClient1.svg" alt="" />
-            <img src="src/assets/ourClient2.svg" alt="" />
-            <img src="src/assets/ourClient3.svg" alt="" />
-            <img src="src/assets/ourClient4.svg" alt="" />
-            <img src="src/assets/ourClient5.svg" alt="" />
-            <img src="src/assets/ourClient6.svg" alt="" />
-            <img src="src/assets/ourClient7.svg" alt="" />
+            <img src={ourClient2} alt="logo" />
+            <img src={ourClient1} alt="logo" />
+            <img src={ourClient3} alt="logo" />
+            <img src={ourClient4} alt="logo" />
+            <img src={ourClient5} alt="logo" />
+            <img src={ourClient6} alt="logo" />
+            <img src={ourClient7} alt="logo" />
         </div>
     </div>
   )

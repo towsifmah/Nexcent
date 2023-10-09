@@ -1,10 +1,11 @@
+ import {designvactor} from '../../assets/designVactor.svg'
 
 const Design = () => {
   return (
     <div className="container">
         <div className="lg:flex items-center justify-between">
             <div className="mb-[48px] flex justify-center">
-                <img src="src/assets/designVactor.svg" alt="vactor" />
+                <img src={designvactor} alt="vactor" />
             </div>
             <div className="ml-[15px] lg:ml-0 mb-[30px] lg:mb-[30px]">
             <h3 className="lg:text-[36px] text-[30px] font-Inter font-semibold lg:leading-[44px] lg:max-w-[601px] max-w-[440px] text-[#4D4D4D]">How to design your site footer like we did</h3>

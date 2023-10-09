@@ -1,4 +1,13 @@
 import {GoArrowRight} from 'react-icons/go'
+
+import {timIcon1} from '../../assets/timIcon1.svg'
+import {timIcon2} from '../../assets/timIcon2.svg'
+import {timIcon3} from '../../assets/timIcon3.svg'
+import {timIcon4} from '../../assets/timIcon4.svg'
+import {timIcon5} from '../../assets/timIcon5.svg'
+import {timIcon6} from '../../assets/timIcon6.svg'
+
+
 const Tim = () => {
   return (
     <div className="bg-[#F5F7FA] py-[32px] lg:px-[144px] px-[20px]">
@@ -12,12 +21,12 @@ const Tim = () => {
                     <h5 className="lg:text-[20px] text-[14px] font-semibold font-Inter text-[#4CAF4F] mt-[16px] mb-[8px]">Tim Smith</h5>
                 <p className="lg:text-base text-[12px] font-normal font-Inter text-[#89939E]">British Dragon Boat Racing Association</p>
                 <div className='flex flex-wrap items-center gap-[41px] mt-[32px]'>
-                    <img src="src/assets/timIcon1.svg" alt="" />
-                    <img src="src/assets/timIcon2.svg" alt="" />
-                    <img src="src/assets/timIcon3.svg" alt="" />
-                    <img src="src/assets/timIcon4.svg" alt="" />
-                    <img src="src/assets/timIcon5.svg" alt="" />
-                    <img src="src/assets/timIcon6.svg" alt="" />
+                    <img src={timIcon1} alt="" />
+                    <img src={timIcon2} alt="" />
+                    <img src={timIcon3} alt="" />
+                    <img src={timIcon4} alt="" />
+                    <img src={timIcon5} alt="" />
+                    <img src={timIcon6} alt="" />
                     <div className='flex items-center lg:text-[18px] text-[13px] font-Inter font-semibold text-[#4CAF4F] lg:leading-[28px] gap-x-[8px]'>
                     <h3>Meet all customers</h3>
                     <GoArrowRight/>

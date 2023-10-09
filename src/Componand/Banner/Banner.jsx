@@ -1,4 +1,4 @@
-
+import {banner} from '../../assets/banner.svg'
 
 const Banner = () => {
   return (
@@ -11,7 +11,7 @@ const Banner = () => {
             <a href="" className="md:py-[14px] sm:py-[10px] py-[8px] md:px-[32px] sm:px-[22px] px-[16px] bg-[#4CAF4F] text-white md:text-base text-[10px] font-Inter font-medium rounded hover:border-[#4CAF4F] hover:border-2 hover:rounded hover:bg-transparent hover:text-[#4D4D4D] duration-200">Register</a>
         </div>
         <div className="lg:pt-[96px] lg:pb-[100px] pb-[70px] flex justify-center">
-        <img src="src/assets/banner.svg" alt="banner" />
+        <img src={banner} alt="banner" />
         </div>
       </div>
      <div className="flex justify-center gap-[8px] pb-[30px]">

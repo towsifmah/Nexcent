@@ -2,6 +2,8 @@ import { useState } from "react"
 import {MdClose} from 'react-icons/md'
 import {FaBars} from 'react-icons/fa'
 
+import {Logo} from '../../assets/logo.svg'
+
 const Navbar = () => {
   const [show , notshow] = useState(false)
   const hide = show ? document.body.style.overflow = 'hidden' : document.body.style.overflow = 'auto'
@@ -13,7 +15,7 @@ const Navbar = () => {
       <div className="container">
      <div className='flex items-center gap-x-[126.1px]'>
      <div>
-            <img src="src/assets/logo.svg" alt="Logo" />
+            <img src={Logo} alt="Logo" />
         </div>
          <div onClick={controlbar} className="lg:hidden text-[25px] font-semibold text-[#4D4D4D] border-2 border-[#4CAF4F] rounded ml-[50px] sm:ml-[328px] md:ml-[458px]">
           {

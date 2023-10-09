@@ -4,6 +4,8 @@ import {BsTwitter} from 'react-icons/bs'
 import {BsYoutube} from 'react-icons/bs'
 import {PiTelegramLogoBold} from 'react-icons/pi'
 
+import {footerlogo} from '../../assets/footerlogo.svg'
+
 
 const Footer = () => {
   return (
@@ -11,7 +13,7 @@ const Footer = () => {
       <div className="container">
         <div className='flex flex-wrap'>
           <div className='xl:mr-[284px] lg:mr-[120px] mr-[50px]'>
-            <img className='w-[140px] lg:w-[180px]' src="src/assets/footerlogo.svg" alt="logo" />
+            <img className='w-[140px] lg:w-[180px]' src={footerlogo} alt="logo" />
                 <p className="lg:text-[14px] text-[10px] font-Inter font-normal text-[#F5F7FA] mt-[40px] mb-[8px]">Copyright © 2020 Nexcent ltd.</p>
             <p className="lg:text-[14px] text-[10px] font-Inter font-normal text-[#F5F7FA]">All rights reserved</p>
             <div className='flex items-center lg:gap-[16px] gap-[10px] text-white lg:mt-[40px] mt-[22px]'>
