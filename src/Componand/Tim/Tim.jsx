@@ -7,6 +7,8 @@ import timIcon4 from '../../assets/timIcon4.svg'
 import timIcon5 from '../../assets/timIcon5.svg'
 import timIcon6 from '../../assets/timIcon6.svg'
 
+import timimage from '../../assets/timimage.svg'
+
 
 const Tim = () => {
   return (
@@ -14,7 +16,7 @@ const Tim = () => {
         <div className="container">
           <div className="lg:flex gap-[78px]">
           <div className='lg:flex justify-center'>
-                <img src="src/assets/timImage.svg" alt="image" />
+                <img src={timimage} alt="image" />
             </div>
             <div className="xl:max-w-[748px] w-full">
                 <p className="lg:text-base text-[12px] font-Inter font-medium text-[#717171] lg:leading-[24px]">Maecenas dignissim justo eget nulla rutrum molestie. Maecenas lobortis sem dui, vel rutrum risus tincidunt ullamcorper. Proin eu enim metus. Vivamus sed libero ornare, tristique quam in, gravida enim. Nullam ut molestie arcu, at hendrerit elit. Morbi laoreet elit at ligula molestie, nec molestie mi blandit. Suspendisse cursus tellus sed augue ultrices, quis tristique nulla sodales. Suspendisse eget lorem eu turpis vestibulum pretium. Suspendisse potenti. Quisque malesuada enim sapien, vitae placerat ante feugiat eget. Quisque vulputate odio neque, eget efficitur libero condimentum id. Curabitur id nibh id sem dignissim finibus ac sit amet magna.</p>
