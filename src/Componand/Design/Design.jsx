@@ -1,4 +1,4 @@
- import {designvactor} from '../../assets/designVactor.svg'
+ import designvactor from '../../assets/designVactor.svg'
 
 const Design = () => {
   return (

@@ -1,6 +1,6 @@
-import {CommunityIcon1} from '../../assets/communityIcon1.svg'
-import {CommunityIcon3} from '../../assets/communityIcon3.svg'
-import {CommunityIcon2} from '../../assets/communityIcon2.svg'
+import CommunityIcon1 from '../../assets/communityIcon1.svg'
+import CommunityIcon3 from '../../assets/communityIcon3.svg'
+import CommunityIcon2 from '../../assets/communityIcon2.svg'
 
 const Community = () => {
   return (

@@ -1,7 +1,7 @@
-import {mamber} from '../../assets/mamber.svg'
-import {clubs} from '../../assets/clubs.png'
-import {event} from '../../assets/event.svg'
-import {payment} from '../../assets/payment.svg'
+import mamber from '../../assets/mamber.svg'
+import clubs from '../../assets/clubs.png'
+import event from '../../assets/event.svg'
+import payment from '../../assets/payment.svg'
 
 const Helping = () => {
   return (

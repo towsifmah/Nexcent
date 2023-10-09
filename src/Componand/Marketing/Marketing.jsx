@@ -1,8 +1,8 @@
 import {HiArrowRight} from 'react-icons/hi'
 
-import {marketingimage1} from '../../assets/marketingimage1.svg'
-import {marketingimage2} from '../../assets/marketingimage2.svg'
-import {marketingimage3} from '../../assets/marketingimage3.svg'
+import marketingimage1 from '../../assets/marketingimage1.svg'
+import marketingimage2 from '../../assets/marketingimage2.svg'
+import marketingimage3 from '../../assets/marketingimage3.svg'
 
 const Marketing = () => {
   return (

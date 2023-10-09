@@ -1,4 +1,4 @@
-import {unseen} from '../../assets/unseen.svg'
+import unseen from '../../assets/unseen.svg'
 
 const Unseen = () => {
   return (

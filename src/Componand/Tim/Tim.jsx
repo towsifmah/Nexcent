@@ -1,11 +1,11 @@
 import {GoArrowRight} from 'react-icons/go'
 
-import {timIcon1} from '../../assets/timIcon1.svg'
-import {timIcon2} from '../../assets/timIcon2.svg'
-import {timIcon3} from '../../assets/timIcon3.svg'
-import {timIcon4} from '../../assets/timIcon4.svg'
-import {timIcon5} from '../../assets/timIcon5.svg'
-import {timIcon6} from '../../assets/timIcon6.svg'
+import timIcon1 from '../../assets/timIcon1.svg'
+import timIcon2 from '../../assets/timIcon2.svg'
+import timIcon3 from '../../assets/timIcon3.svg'
+import timIcon4 from '../../assets/timIcon4.svg'
+import timIcon5 from '../../assets/timIcon5.svg'
+import timIcon6 from '../../assets/timIcon6.svg'
 
 
 const Tim = () => {

@@ -2,7 +2,7 @@ import { useState } from "react"
 import {MdClose} from 'react-icons/md'
 import {FaBars} from 'react-icons/fa'
 
-import {Logo} from '../../assets/logo.svg'
+import Logo from '../../assets/logo.svg'
 
 const Navbar = () => {
   const [show , notshow] = useState(false)

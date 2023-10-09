@@ -1,4 +1,4 @@
-import {banner} from '../../assets/banner.svg'
+import banner from '../../assets/banner.svg'
 
 const Banner = () => {
   return (
