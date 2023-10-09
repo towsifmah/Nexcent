@@ -25,7 +25,7 @@ const Navbar = () => {
           }
           </div>
          </div>
-        <div className={`lg:flex items-center gap-x-[101.5px] lg:static fixed overflow-y-auto lg:overflow-visible lg:bg-transparent bg-[#4CAF4F]/70 backdrop-blur-sm  lg:backdrop-blur-none duration-500 ease-in-out lg:duration-0 lg:pb-0 py-20 lg:py-0 top-[50px] right-0 text-center h-screen lg:h-fit ${show ? 'w-1/2' : 'w-0 lg:w-full opacity-50 lg:opacity-100'}`}>
+        <div className={`lg:flex items-center gap-x-[101.5px] lg:static fixed overflow-y-auto lg:overflow-visible lg:bg-transparent bg-[#4CAF4F]/70 backdrop-blur-lg  lg:backdrop-blur-none duration-500 ease-in-out lg:duration-0 lg:pb-0 py-20 lg:py-0 top-[50px] right-0 text-center h-screen lg:h-fit ${show ? 'w-1/2' : 'w-0 lg:w-full opacity-50 lg:opacity-100'}`}>
           <ul className="flex flex-col lg:flex-row items-center xl:gap-x-[50px] gap-y-[50px] gap-x-[31px] text-white md:text-[#4D4D4D]">
             <li><a className='text-base font-medium font-Inter' href="">Home</a></li>
             <li><a className='text-base font-normal font-Inter' href="">Service</a></li>

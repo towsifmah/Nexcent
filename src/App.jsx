@@ -6,7 +6,7 @@ import Helping from "./Componand/Helping/Helping"
 import Marketing from "./Componand/Marketing/Marketing"
 import Banner from "./Componand/Banner/Banner"
 import Navbar from "./Componand/Navbar/Navbar"
-import Suscipit from "./Componand/Suscipit/suscipit"
+import Suscipit from "./Componand/Suscipit/Suscipit"
 import Tim from "./Componand/Tim/Tim"
 import Unseen from "./Componand/Unseen/Unseen"
 
