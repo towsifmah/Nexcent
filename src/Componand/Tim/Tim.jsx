@@ -7,7 +7,7 @@ import timIcon4 from '../../assets/timIcon4.svg'
 import timIcon5 from '../../assets/timIcon5.svg'
 import timIcon6 from '../../assets/timIcon6.svg'
 
-import timimage from '../../assets/timimage.svg'
+import timimage from '../../assets/timImage.svg'
 
 
 const Tim = () => {
