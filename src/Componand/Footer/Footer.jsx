@@ -43,7 +43,7 @@ const Footer = () => {
                 <a href="" className='flex flex-row lg:text-[14px] text-[9px] font-normal font-Inter text-white'>Status</a>
             </div>
           </div>
-          <div className='xl:ml-[120px] lg:ml-[100px] md:ml-[80px]'>
+          <div className='xl:ml-[90px] lg:ml-[80px] md:ml-[70px] ml-[15px]'>
           <h3 className='lg:text-[20px] text-[14px] font-Inter font-semibold text-white mb-[24px]'>Stay up to date</h3>
           <div className='flex items-center lg:w-[255px] w-[220px] lg:h-[44px] h-[33px] bg-[#515b60] rounded-md'>
             <input type="email" className=' text-white pl-[12px] border-none outline-none bg-transparent ' placeholder='Your email address'/>

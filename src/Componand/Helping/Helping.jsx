@@ -16,14 +16,14 @@ const Helping = () => {
            <div>
            <div className="flex gap-x-[30px] mb-[40px]">
                 <div className="flex items-center gap-x-[16px]">
-                    <img className="md:w-0 w-[30px]" src={mamber} alt="" />
+                    <img src={mamber} alt="mamber" />
                     <div>
                         <h3 className="lg:text-[28px] md:text-[18px] text-[15px] font-bold font-Inter text-[#4D4D4D]">2,245,341</h3>
                         <p className="lg:text-base md:text-[12px] text-[9px] font-Inter font-normal text-[#717171]">Members</p>
                     </div>
                 </div>
                 <div className="flex items-center gap-[16px]">
-                    <img className="md:w-0 w-[30px]" src={clubs} alt="" />
+                    <img src={clubs} alt="" />
                     <div>
                         <h3 className="lg:text-[28px] md:text-[18px] text-[15px] font-bold font-Inter text-[#4D4D4D]">46,328</h3>
                         <p className="lg:text-base md:text-[12px] text-[9px] font-Inter font-normal text-[#717171]">Clubs</p>
@@ -32,14 +32,14 @@ const Helping = () => {
             </div>
            <div className="flex gap-x-[50px]">
                 <div className="flex items-center gap-x-[16px]">
-                    <img className="md:w-0 w-[30px]" src={event} alt="" />
+                    <img src={event} alt="" />
                     <div>
                         <h3 className="lg:text-[28px] md:text-[18px] text-[15px] font-bold font-Inter text-[#4D4D4D]">828,867</h3>
                         <p className="lg:text-base md:text-[12px] text-[7px] font-Inter font-normal text-[#717171]">Event Bookings</p>
                     </div>
                 </div>
                 <div className="flex items-center gap-[16px]">
-                    <img className="md:w-0 w-[30px]" src={payment} alt="" />
+                    <img src={payment} alt="" />
                     <div>
                         <h3 className="lg:text-[28px] md:text-[18px] text-[15px] font-bold font-Inter text-[#4D4D4D]">1,926,436</h3>
                         <p className="lg:text-base md:text-[12px] text-[9px] font-Inter font-normal text-[#717171]">Payments</p>
