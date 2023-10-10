@@ -26,21 +26,21 @@ const Footer = () => {
           <div className='xl:mr-[120px] lg:mr-[90px] mr-[60px]'>
             <h3 className='lg:text-[20px] text-[14px] font-Inter font-semibold text-white mb-[24px]'>Company</h3>
             <div>
-                <a href="" className='flex flex-row lg:text-14px] text-[9px] font-normal font-Inter text-white mb-[12px]'>About us</a>
-                <a href="" className='flex flex-row lg:text-14px] text-[9px] font-normal font-Inter text-white mb-[12px]'>Blog</a>
-                <a href="" className='flex flex-row lg:text-14px] text-[9px] font-normal font-Inter text-white mb-[12px]'>Contact</a>
-                <a href="" className='flex flex-row lg:text-14px] text-[9px] font-normal font-Inter text-white mb-[12px]'>Pricing</a>
-                <a href="" className='flex flex-row lg:text-14px] text-[9px] font-normal font-Inter text-white'>Testimonials</a>
+                <a href="" className='flex flex-row lg:text-[14px] text-[9px] font-normal font-Inter text-white mb-[12px]'>About us</a>
+                <a href="" className='flex flex-row lg:text-[14px] text-[9px] font-normal font-Inter text-white mb-[12px]'>Blog</a>
+                <a href="" className='flex flex-row lg:text-[14px] text-[9px] font-normal font-Inter text-white mb-[12px]'>Contact</a>
+                <a href="" className='flex flex-row lg:text-[14px] text-[9px] font-normal font-Inter text-white mb-[12px]'>Pricing</a>
+                <a href="" className='flex flex-row lg:text-[14px] text-[9px] font-normal font-Inter text-white'>Testimonials</a>
             </div>
           </div>
           <div>
             <h3 className='lg:text-[20px] text-[14px] font-Inter font-semibold text-white mb-[24px]'>Support</h3>
             <div>
-                <a href="" className='flex flex-row lg:text-14px] text-[9px] font-normal font-Inter text-white mb-[12px]'>Help center</a>
-                <a href="" className='flex flex-row lg:text-14px] text-[9px] font-normal font-Inter text-white mb-[12px]'>Terms of service</a>
-                <a href="" className='flex flex-row lg:text-14px] text-[9px] font-normal font-Inter text-white mb-[12px]'>Legal</a>
-                <a href="" className='flex flex-row lg:text-14px] text-[9px] font-normal font-Inter text-white mb-[12px]'>Privacy policy</a>
-                <a href="" className='flex flex-row lg:text-14px] text-[9px] font-normal font-Inter text-white'>Status</a>
+                <a href="" className='flex flex-row lg:text-[14px] text-[9px] font-normal font-Inter text-white mb-[12px]'>Help center</a>
+                <a href="" className='flex flex-row lg:text-[14px] text-[9px] font-normal font-Inter text-white mb-[12px]'>Terms of service</a>
+                <a href="" className='flex flex-row lg:text-[14px] text-[9px] font-normal font-Inter text-white mb-[12px]'>Legal</a>
+                <a href="" className='flex flex-row lg:text-[14px] text-[9px] font-normal font-Inter text-white mb-[12px]'>Privacy policy</a>
+                <a href="" className='flex flex-row lg:text-[14px] text-[9px] font-normal font-Inter text-white'>Status</a>
             </div>
           </div>
           <div className='xl:ml-[120px] lg:ml-[100px] md:ml-[80px]'>
